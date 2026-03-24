@@ -1,3 +1,4 @@
 .python-version
 /media/**
 *.egg-info/
+.DS_Store
