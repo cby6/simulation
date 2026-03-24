@@ -53,7 +53,7 @@ class ToroidalCoilFieldScene(ThreeDScene):
         b_scale = float(np.max(Bmag)) if float(np.max(Bmag)) > 0 else 1.0
 
         # ---- Camera
-        self.set_camera_orientation(phi=70 * DEGREES, theta=35 * DEGREES, zoom=1.15)
+        self.set_camera_orientation(phi=70 * DEGREES, theta=35 * DEGREES, zoom=2.5)
 
         # ---- Torus guide
         torus = Torus(
